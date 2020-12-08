@@ -21,6 +21,15 @@ allprojects {
         maven {
             url 'https://jitpack.io'
         }
+        maven { url 'https://developer.huawei.com/repo/' } // HUAWEI Maven repository
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url "https://maven.aliyun.com/repository/public" }
+        maven {
+            url "http://maven.aliyun.com/nexus/content/repositories/releases"
+        }
+        maven { url 'http://developer.huawei.com/repo' }
+
+
     }
 }
 
